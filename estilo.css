@@ -1,20 +1,38 @@
-h1 {
-    color: #b9ccdf; 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
-img {
-    width: 350px;
-}
-#thirdDiv {
-    height: 500px;
-    width: 500px;
-    background-color: #1c19b6; 
-    padding: 50px;
-    border: 5px solid #1c7ece; 
-}
-#spanId {
+
+caption {
     font-size: 18px;
-    margin: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-.divClass {
-    margin-bottom: 20px;
+
+th {
+    width: 170px;
+}
+
+td {
+    
+    border: 1px solid black;
+    padding: 8px 4px;
+    text-align: left;
+}
+
+td {
+    background-color: white;
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+.destacar {
+    background-color: red;
+    color: white;
+}
+
+tfoot td {
+    text-align: center;
+    font-size: 12px;
 }
